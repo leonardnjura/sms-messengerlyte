@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+      integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Barriecito|Source+Sans+Pro:200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="css/stylz.css" rel="stylesheet" type="text/css" />
+    <title>Messenger Lyte | NodeJs</title>
+  </head>
+  <body>
+    <h1>&nbsp;</h1>
+    <div class="container">
+      <h2 class="sms">
+        <i class="fa fa-first-order"></i> Messenger
+        <span class="lyte theme">Lyte</span>
+      </h2>
+      <div class="row">
+        <div class="eight columns">
+          <div>
+            <input type="tel" name="cell" id="cell" placeholder="Phone.." />
+          </div>
+          <div>
+            <textarea
+              type="text"
+              name="msg"
+              id="msg"
+              placeholder="Text Message.."
+              class="compose u-full-width"
+            ></textarea>
+          </div>
+
+          <button
+            type="button"
+            id="send"
+            class="button button-primary u-pull-right"
+          >
+            SMS <span class="rpt1"></span>
+          </button>
+          <div class="u-cf"></div>
+        </div>
+        <div class="four columns">
+          <p class="rpt2 theme"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "sms_app",
+  "version": "1.0.0",
+  "description": "nodejs sms app with nexmo",
+  "main": "sms.js",
+  "scripts": {
+    "start": "nodemon sms.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "nexmo": "^2.4.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

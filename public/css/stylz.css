@@ -1,0 +1,40 @@
+.lyte {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.theme {
+  color: #00ccff;
+}
+
+.compose {
+  color: #222;
+}
+
+input[type='text'],
+input[type='tel'],
+textarea {
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 23px;
+  font-size: 13px;
+}
+
+textarea {
+  padding: 13px 9px;
+}
+
+input[type='text']:focus,
+input[type='tel']:focus,
+textarea:focus {
+  background-color: #efefef;
+}
+
+button {
+  border-radius: 23px !important;
+  margin-top: -13px;
+}
+
+.sent {
+  color: #98cc4c;
+  font-size: 3em;
+  margin-left: 3px;
+}
